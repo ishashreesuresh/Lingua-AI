@@ -1,31 +1,20 @@
-# LinguaAI — Multilingual Translation Platform
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-AI-powered multilingual translation platform built with Google AI Studio.
+# Run and deploy your AI Studio app
 
-## Project
+This contains everything you need to run your app locally.
 
-AI Studio project:
-https://linguaai-ai-multilingual-translation-platform.ai.studio/
+View your app in AI Studio: https://ai.studio/apps/33531965-cd1c-4f84-bcb2-8db052cde58c
 
-## Repository
+## Run Locally
 
-GitHub:
-https://github.com/ishashreesuresh/Lingua-AI
+**Prerequisites:**  Node.js
 
-## Status
 
-This repository is connected to the LinguaAI AI Studio project and is intended to document and version the project source and project information.
-
-## Features
-
-- Multilingual translation workflow
-- AI-assisted language processing
-- Modern web interface
-- AI Studio-based development
-
-## Technologies
-
-- Google AI Studio
-- AI / Generative AI
-- Web technologies
-
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
